@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Record Management System</title>
+  <link href="C:\Users\ankan sen\Desktop\ankan\New folder\static\css\style.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='mcs.css') }}">
+</head>
+<body>
+  <nav class="navbar">
+  <div class="nav-container">
+    <div class="logo">Student Portal</div>
+    <ul class="nav-links">
+      <li><a href="{{ url_for('home') }}">Home</a></li>
+      <li><a href="add.html" target="_self">Add Student</a></li>
+      <li><a href="list.html" target="_self">Student List</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
